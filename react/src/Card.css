@@ -1,0 +1,99 @@
+.Basil {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+}
+
+.upper-container {
+    height: 100px;
+    background: linear-gradient(to left, #2d00f7, #ff0291);
+}
+
+.upper-container2 {
+    border: 1px solid black;
+    font-weight: 600;
+    padding: 5%;
+    height: 120px;
+    background: linear-gradient(to right, #8e00b9, grey);
+}
+
+.image-container img{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(95px, 45px);
+}
+
+img {
+    border: 2px solid #8e00b9;
+}
+
+.lower-container {
+    margin-top: 60px;
+    height: 300px;
+    background: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.lower-container2 {
+    margin-top: 25px;
+    padding: 5%;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.lower-container h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.lower-container h4 {
+    color: #2f2d2e;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 15px;
+
+}
+
+.lower-container h3 {
+    color: #8e00b9;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.button {
+    margin: 0.7rem;
+    margin-top: 45px;
+    color: #2f2d2e;
+    font-weight: 400;
+    background-color: white;
+    border: 2px solid #8e00b9;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: 0.2s;
+    animation: ease-in-out;
+}
+
+button:hover{
+    background-image: linear-gradient(to left, #2d00f7, #ff0291);
+    transform: scale(1.02);
+    border-color: black;
+    color: white;
+
+}
